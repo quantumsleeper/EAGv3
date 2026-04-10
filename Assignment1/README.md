@@ -20,6 +20,14 @@ Ever wanted to sing along to a song on YouTube but couldn't find an instrumental
 
 ---
 
+## 🎥 Video Demo
+
+Check out how easy it is to use **Karaoke Maker** in this quick demo:
+
+[![Karaoke Maker Demo](https://img.youtube.com/vi/QVoH2V_uI0A/maxresdefault.jpg)](https://youtu.be/QVoH2V_uI0A)
+
+---
+
 ## 🚀 Key Features
 
 *   **🌐 Universal Compatibility:** Works effortlessly with YouTube and Instagram URLs.
