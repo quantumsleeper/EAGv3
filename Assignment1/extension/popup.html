@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-wrapper">
+        <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+          <line x1="12" y1="19" x2="12" y2="23"></line>
+          <line x1="8" y1="23" x2="16" y2="23"></line>
+        </svg>
+      </div>
+      <h1>Karaoke Maker</h1>
+      <p>Vocal removal • Pitch shifter</p>
+    </header>
+    <main>
+      <div class="input-group">
+        <label for="url">Video / Reel URL</label>
+        <input type="url" id="url" placeholder="https://youtube.com/...">
+      </div>
+      <div class="input-group">
+        <label for="pitch">Pitch Shift (Semitones)</label>
+        <div class="pitch-control">
+          <button id="pitch-down" class="btn-icon">-</button>
+          <input type="number" id="pitch" value="0" min="-12" max="12">
+          <button id="pitch-up" class="btn-icon">+</button>
+        </div>
+      </div>
+      <button id="process-btn" class="btn-primary">
+        <span class="btn-text">Create Karaoke Track</span>
+        <div class="loader" id="loader" style="display: none;"></div>
+      </button>
+      <div class="status-container">
+         <p id="status-text"></p>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

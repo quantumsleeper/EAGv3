@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Karaoke Maker",
+  "version": "1.0",
+  "description": "Convert YouTube/Instagram music to Karaoke MP3s with pitch shifting.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Karaoke Maker"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ]
+}
