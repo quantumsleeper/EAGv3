@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Semantic History Replay",
+  "version": "1.0",
+  "description": "Vector-based, multimodal search for your browser history powered by Gemini Flash 2.0.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Search History"
+  }
+}

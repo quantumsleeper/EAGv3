@@ -1,0 +1,8 @@
+fastapi[standard]
+uvicorn
+chromadb
+google-generativeai
+python-multipart
+pydantic
+python-dotenv
+Pillow

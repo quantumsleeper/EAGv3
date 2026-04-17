@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantic History</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Semantic Search</h1>
+      <p>Find past pages by describing them.</p>
+    </header>
+    
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="e.g., That site with the dark green header...">
+      <button id="searchBtn">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="results" id="resultsContainer"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
